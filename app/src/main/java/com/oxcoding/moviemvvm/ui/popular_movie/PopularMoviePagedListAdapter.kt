@@ -13,7 +13,7 @@ import com.oxcoding.moviemvvm.R
 import com.oxcoding.moviemvvm.data.api.POSTER_BASE_URL
 import com.oxcoding.moviemvvm.data.repository.NetworkState
 import com.oxcoding.moviemvvm.data.vo.Movie
-import com.oxcoding.moviemvvm.ui.single_movie_details.SingleMovie
+//import com.oxcoding.moviemvvm.ui.single_movie_details.SingleMovie
 import kotlinx.android.synthetic.main.movie_list_item.view.*
 import kotlinx.android.synthetic.main.network_state_item.view.*
 import android.widget.Toast
@@ -94,11 +94,11 @@ class PopularMoviePagedListAdapter(public val context: Context) : PagedListAdapt
                 .load(moviePosterURL)
                 .into(itemView.cv_iv_movie_poster);
 
-            itemView.setOnClickListener{
-                val intent = Intent(context, SingleMovie::class.java)
-                intent.putExtra("id", movie?.id)
-                context.startActivity(intent)
-            }
+//            itemView.setOnClickListener{
+//                val intent = Intent(context, SingleMovie::class.java)
+//                intent.putExtra("id", movie?.id)
+//                context.startActivity(intent)
+//            }
 
         }
 

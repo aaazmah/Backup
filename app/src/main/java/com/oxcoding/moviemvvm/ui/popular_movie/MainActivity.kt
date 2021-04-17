@@ -13,7 +13,7 @@ import com.oxcoding.moviemvvm.R
 import com.oxcoding.moviemvvm.data.api.TheMovieDBClient
 import com.oxcoding.moviemvvm.data.api.TheMovieDBInterface
 import com.oxcoding.moviemvvm.data.repository.NetworkState
-import com.oxcoding.moviemvvm.ui.single_movie_details.SingleMovie
+//import com.oxcoding.moviemvvm.ui.single_movie_details.SingleMovie
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
